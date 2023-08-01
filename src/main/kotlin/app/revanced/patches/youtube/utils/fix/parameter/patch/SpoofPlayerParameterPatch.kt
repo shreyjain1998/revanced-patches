@@ -100,7 +100,7 @@ class SpoofPlayerParameterPatch : BytecodePatch(
             } ?: return StoryboardThumbnailFingerprint.toErrorResult()
         } ?: return StoryboardThumbnailParentFingerprint.toErrorResult()
 
-        // Seekbar thumbnail now show up but are always a blank image
+        // Seekbar thumbnail now show up but are always a blank image.
         // Additional changes are needed to force the client to generate the thumbnails (assuming it's possible),
         // but for now hide the empty thumbnail.
         ScrubbedPreviewLayoutFingerprint.result?.let {
