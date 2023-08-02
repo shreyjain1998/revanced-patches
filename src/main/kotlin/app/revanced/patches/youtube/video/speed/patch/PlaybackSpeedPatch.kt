@@ -28,7 +28,6 @@ import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 @DependsOn(
     [
         OverrideSpeedHookPatch::class,
-        SettingsPatch::class,
         VideoCpnPatch::class
     ]
 )
